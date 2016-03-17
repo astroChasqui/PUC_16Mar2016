@@ -1,0 +1,29 @@
+synth
+standard_out moog_std.out
+summary_out  moog_summ.out
+smoothed_out moog_smooth.out
+model_in     0733-0837663.krz
+lines_in     lisun.moog
+obspectrum   5
+observed_in  0733-0837663_li.txt
+atmosphere   1
+molecules    1
+terminal     x11
+lines        1
+flux/int     0
+damping      0
+freeform     1
+plot         2
+abundances   3 3
+    3  -5.00  0.05  1.00
+    6  -0.10 -0.10 -0.10
+    7  -0.10 -0.10 -0.10
+isotopes    2  3
+ 3.007 1.00 1.00 1.00
+ 3.006 1000 1000 1000
+synlimits
+ 6702 6711 0.01 2.0
+plotpars    1
+ 6702 6711   0.60 1.010
+0.0   0.0   0.0  1.000
+ r     0.16  7.5  0.6   3.4  0.0
